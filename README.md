@@ -4,11 +4,17 @@ Standalone browser **FPS aim trainer** from the [Project Scorpio](https://github
 
 **Slug:** `project_scorpio__aim_lab`
 
+## Screenshots
+
+| Difficulty menu | Gameplay HUD | Level cleared |
+|-----------------|--------------|---------------|
+| ![Menu](docs/screenshots/01-menu.png) | ![Gameplay](docs/screenshots/03-gameplay-hud.png) | ![Victory](docs/screenshots/02-victory.png) |
+
 ## Features
 
 - Cafe arena with balloon targets
 - CS-style movement, jump, crouch
-- Difficulty modes + Free Practice (no timer)
+- Difficulty modes + **Free Practice** (no timer)
 - Blocky viewmodel arms and rifle
 - Built with **React + Three.js**
 
@@ -19,7 +25,7 @@ npm install
 npm start
 ```
 
-Open **http://localhost:3000** (local machine only).
+Open **http://localhost:3000** on your machine.
 
 ## Controls
 
@@ -28,6 +34,14 @@ Open **http://localhost:3000** (local machine only).
 - **Space** — jump
 - **Ctrl / C** — crouch
 - **LMB** — shoot
+- **Tab** — settings
+
+## Tech highlights
+
+- GLB cafe map collision + procedural enemy spawns
+- Pointer-lock FPS controls with step-up movement
+- Difficulty presets in `src/game/difficulties.js`
+- Minecraft-style procedural viewmodel (no broken GLTF arms)
 
 ## Part of Project Scorpio
 
@@ -38,7 +52,7 @@ Open **http://localhost:3000** (local machine only).
 
 ## Security
 
-- No backend required — runs entirely in the browser
+- No backend required — browser-only
 - No secrets or `.env` needed
 - Do not commit personal files or API keys
 
