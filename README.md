@@ -6,9 +6,9 @@ Standalone browser **FPS aim trainer** from the [Project Scorpio](https://github
 
 ## Screenshots
 
-| Difficulty menu | Gameplay HUD | Level cleared |
-|-----------------|--------------|---------------|
-| ![Menu](docs/screenshots/01-menu.png) | ![Gameplay](docs/screenshots/03-gameplay-hud.png) | ![Victory](docs/screenshots/02-victory.png) |
+| Difficulty menu | In-game HUD |
+|-----------------|-------------|
+| ![Menu](docs/screenshots/01-menu.png) | ![Gameplay](docs/screenshots/03-gameplay-hud.png) |
 
 ## Features
 
